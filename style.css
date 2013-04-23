@@ -39,8 +39,37 @@ a:link,a:visited,a:hover,a:active{
 	color:#303030;
 }
 
+div.book{
+	padding: 0px;
+}
+
+.book-title{
+	padding: 0px;
+	margin: 0px;
+}
+
+.book:nth-child(even) > .book-title:first-letter{
+	color: #C7B773;
+}
+
+.book:nth-child(odd) > .book-title:first-letter{
+	color: #E3DB9A;
+}
+
+div.book{
+	padding: 0px 20px;
+}
+
+.book:nth-child(even){
+	background-color: #E3DB9A;
+}
+
+.book:nth-child(odd){
+	background-color: #C7B773;
+}
+
 img.book-image{
-	border: 4px solid #C7B773;
+	border: 4px solid #303030;
 	margin: 0 10px 10px 0;
 	width: 150px;
 	height: auto;
