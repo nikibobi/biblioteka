@@ -88,6 +88,12 @@ img.book-image{
 	top: 10%;
 }
 
+#nav li{
+	position: relative;
+	left: -15px;
+	list-style: none;
+}
+
 #credits{
 	position: fixed;
 	right: 1%;
