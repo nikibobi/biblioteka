@@ -1,2 +1,2 @@
-#Библиотека
-Саит по информатика
+#Library
+Site for school
